@@ -3,10 +3,10 @@
 #
 
 # Add scripts in project
-AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/MyPlayer.cpp")
+AC_ADD_SCRIPT("${CMAKE_CURRENT_LIST_DIR}/src/MountAutoselect.cpp")
 
 # Add scripts to script loader
-AC_ADD_SCRIPT_LOADER("MyModule" "${CMAKE_CURRENT_LIST_DIR}/src/my_module_loader.h")
+AC_ADD_SCRIPT_LOADER("MountAutoselect" "${CMAKE_CURRENT_LIST_DIR}/src/loader.h")
 
 # Add config file
-AC_ADD_CONFIG_FILE("${CMAKE_CURRENT_LIST_DIR}/conf/my_custom.conf.dist")
+AC_ADD_CONFIG_FILE("${CMAKE_CURRENT_LIST_DIR}/conf/mount_autoselect.conf.dist")
