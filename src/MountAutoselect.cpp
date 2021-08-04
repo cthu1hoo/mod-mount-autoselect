@@ -119,7 +119,7 @@ class MountAutoselect : public SpellScriptLoader
             void Register() override
             {
                 OnEffectApply += AuraEffectApplyFn(MountAutoselect_AuraScript::OnApply, EFFECT_1, SPELL_AURA_DUMMY, AURA_EFFECT_HANDLE_REAL);
-                OnEffectRemove += AuraEffectRemoveFn(MountAutoselect_AuraScript::OnRemove, EFFECT_1, SPELL_AURA_DUMMY, AURA_EFFECT_HANDLE_REAL);
+                OnEffectRemove += AuraEffectRemoveFn(MountAutoselect_AuraScript::OnRemove, EFFECT_0, SPELL_AURA_MOUNTED, AURA_EFFECT_HANDLE_REAL);
             }
         };
 
