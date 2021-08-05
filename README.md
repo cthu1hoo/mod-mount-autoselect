@@ -9,6 +9,8 @@ Approach used for this module has some minor issues:
 
 Still, it's good enough for me, and could be useful as a proof of concept.
 
+Alternatively, see `spell-id-ranges` branch for a more traditional approach.
+
 ## Setup
 
 Checkout the module into `modules` server directory, and recompile the server.
